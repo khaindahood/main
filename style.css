@@ -3,7 +3,8 @@
     --primary-color:#64a281;
 }
 p{
-    font-size: 20px;
+    font-size: 22px;
+    font-family: sans-serif;
 }
 *{ 
     margin:0;
@@ -14,16 +15,19 @@ p{
 
 body{
     height:100vh;
-    background-color: rgb(114, 211, 222);
+    background-image: url("duahau.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     justify-content:center;
     display:flex;
     align-items: center;
     font-family:" Poppins";
-    color:rgb(37, 43, 47);
+    color:rgb(137, 55, 22);
 }
 
 .card{
-    background-color: #5dc78b;
+    background-image:url(duahautrongdiv.jpg);
     width:300px;
     height:400px;
     border-radius: 15px;
@@ -64,18 +68,18 @@ body{
 }
 
 .card p {
-    color: rgba(11, 23, 30, 0.775);
+    color: rgba(52, 32, 102, 0.775);
 }
 .card_social{
     margin: 25px 0 ;
 }
 .card_social a{
-    color:white;
+    color:rgb(39, 133, 191);
     margin: 25px 25px;
     font-size: 20px;
 }    
 .card_social a :hover{
-    background-color: #041c21;
+    background-color: #3cb38b;
 }
 
 .card button{
